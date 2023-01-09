@@ -12,13 +12,13 @@ public class Main {
             System.out.println("1 | Encriptar datos");
             System.out.println("2 | Salir del programa");
 
-            int opcion = scanner.nextInt();
+            String opcion = scanner.nextLine();
 
             switch (opcion) {
-                case 1:
+                case "1":
                     EncripDatos();
                     break;
-                case 2:
+                case "2":
                     inMenu = false;
                     break;
                 default:

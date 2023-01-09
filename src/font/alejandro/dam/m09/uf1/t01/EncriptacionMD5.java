@@ -1,6 +1,5 @@
 package font.alejandro.dam.m09.uf1.t01;
 
-
 import org.apache.commons.codec.digest.MessageDigestAlgorithms;
 
 import java.security.MessageDigest;
